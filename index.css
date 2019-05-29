@@ -1,0 +1,33 @@
+.container {
+  align-content: center;
+  margin: 20px;
+  background-color: silver; }
+
+.row > div {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: silver;
+  border: 2px solid black; }
+
+.first, .second {
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  text-align: center; }
+
+.first {
+  font-size: 12px; }
+
+.second {
+  font-size: 20px; }
+
+div {
+  text-align: center; }
+  div li {
+    font-size: 20px; }
+  div .col {
+    font-style: italic; }
+
+/*# sourceMappingURL=index.css.map */

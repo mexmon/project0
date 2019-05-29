@@ -1,0 +1,48 @@
+$backCollor: silver;
+
+.container {
+  align-content: center;
+  margin: 20px;
+  background-color: $backCollor;
+
+}
+
+  .row > div {
+    padding: 20px;
+    border-radius: 5px;
+      background-color: $backCollor;
+      border: 2px solid black;
+  }
+
+  %testInheritance {
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .first {
+    @extend %testInheritance;
+    font-size: 12px;
+  }
+
+  .second {
+    @extend %testInheritance;
+    font-size: 20px;
+  }
+
+  div {
+    text-align: center;
+
+    li {
+      font-size: 20px;
+
+    }
+
+    .col {
+      font-style: italic;
+
+    }
+  }
